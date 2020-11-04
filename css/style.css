@@ -1,0 +1,232 @@
+.cla{
+    position: relative;
+    width:1280px;
+    height: 900px;
+    background-color: teal;
+    
+}
+.plate{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    width: 700px;
+    height: 700px;
+    background-color: #4A1804;
+    border-radius: 100%;
+}
+.sax{
+    position: absolute;
+    right: 370px;
+    bottom: 4px;
+    width: 90px;
+    height: 318px;
+    background-color: #4A1804;
+    transform: rotate(140deg);
+    border-radius: 35px 35px;
+}
+.oval{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    border-radius: 100%;
+}
+.pizza{
+    width: 600px;
+    height: 600px;
+    background-color: #FFC61C;
+    border-radius: 100%;
+    position: absolute;
+    top: 24px;
+    left: 25px;
+    z-index: 1;
+    border: 25px solid #E09B31;
+}
+.pizza1{
+    width: 590px;
+    height: 590px;
+    border-radius: 100%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.peperon{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #D90404;
+}
+.peperon:first-child{
+    position: absolute;
+    top: 237px;
+    left: 20px;
+}
+.peperon:nth-child(2){
+    position: absolute;
+    top: 103px;
+    left: 69px;
+}
+.peperon:nth-child(3){
+    position: absolute;
+    top: 27px;
+    left: 186px;
+}
+.peperon:nth-child(4){
+    position: absolute;
+    top: 38px;
+    left: 324px;
+}
+.peperon:nth-child(5){
+    position: absolute;
+    top: 132px;
+    left: 432px;
+}
+.peperon:nth-child(6){
+    position: absolute;
+    top: 254px;
+    left: 468px;
+}
+.peperon:nth-child(7){
+    position: absolute;
+    top: 383px;
+    left: 420px;
+}
+.peperon:nth-child(8){
+    position: absolute;
+    top: 462px;
+    left: 311px;
+}
+.peperon:nth-child(9){
+    position: absolute;
+    top: 458px;
+    left: 170px;
+}
+.peperon:nth-child(10){
+    position: absolute;
+    top: 367px;
+    left: 58px;
+}
+.big{
+    width: 77px;
+    height: 77px;
+    background-color: #FFFF00;
+    border-radius: 100%;
+    border: 3px solid green;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+.small{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+}
+.small:nth-child(1){
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+.small:nth-child(2){
+    position: absolute;
+    top: 33px;
+    left: 3px;
+}
+.small:nth-child(3){
+    position: absolute;
+    top: 57px;
+    left: 18px;
+}
+.small:nth-child(4){
+    position: absolute;
+    top: 55px;
+    left: 45px;
+}
+.small:nth-child(5){
+    position: absolute;
+    top: 32px;
+    left: 59px;
+}
+.small:nth-child(6){
+    position: absolute;
+    top: 9px;
+    left: 44px;
+}
+.small:nth-child(7){
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 27px;
+    left: 24px;
+    border-radius: 100%;
+    border: 3px dashed white;
+}
+.mushroom{
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    position: absolute;
+    top: 140px;
+    left: 139px;
+    z-index: 2;
+}
+.mush{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 107px;
+    left: 10px;
+}
+.head{
+    width: 99px;
+    height: 44px;
+    background-color: #B49989;
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    border-radius: 30px 30px 0px 0px;
+    z-index: 3;
+}
+.body{
+    width: 36px;
+    height: 88px;
+    background-color: #C3B5AE;
+    position: absolute;
+    top: 10px;
+    left: 31px;
+}
+.mush:nth-child(1){
+    position: absolute;
+    top: 124px;
+    left: 10px;
+    transform: rotate(59deg);
+}
+.mush:nth-child(2){
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    transform: rotate(127deg);
+}
+.mush:nth-child(3){
+    position: absolute;
+    top: 209px;
+    left: 109px;
+    transform: rotate(-29deg);
+}
+.mush:nth-child(4){
+    position: absolute;
+    top: 123px;
+    left: 210px;
+    transform: rotate(59deg);
+}
+.mush:nth-child(5){
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: rotate(59deg);
+}
